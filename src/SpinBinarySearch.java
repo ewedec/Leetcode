@@ -10,6 +10,7 @@ public class SpinBinarySearch {
             if (A[mid] == target) {
                 return mid;
             }
+            //有序数组
             if (A[i] <= A[mid]) {
                 if (A[i] <= target && target < A[mid]) {
                     j = mid - 1;
